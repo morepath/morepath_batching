@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Morepath batching demo</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Address</th>
+      </tr>
+      {% for person in persons %}
+      <tr>
+        <td><a href={{request.link(person)}}>{{ person.name }}</a></td>
+        <td>{{ person.email }}</td>
+        <td>{{ person.address }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    {% if previous_link %}
+    <a href="{{ previous_link }}">Previous</a>
+    {% endif %}
+    {% if next_link %}
+    <a href="{{ next_link }}">Next</a>
+    {% endif %}
+  </body>
+</html>
