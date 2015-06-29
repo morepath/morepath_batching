@@ -4,6 +4,10 @@ Morepath Batching Demo
 Show how to create a server web application with Morepath that uses
 batching and Jinja2 templates.
 
+More information:
+
+http://blog.startifact.com/posts/morepath-batching-example.html
+
 Installation
 ------------
 
