@@ -12,7 +12,7 @@
       </tr>
       {% for person in persons %}
       <tr>
-        <td><a href={{request.link(person)}}>{{ person.name }}</a></td>
+        <td><a href="{{ request.link(person) }}">{{ person.name }}</a></td>
         <td>{{ person.email }}</td>
         <td>{{ person.address }}</td>
       </tr>
