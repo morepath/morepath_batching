@@ -1,5 +1,5 @@
-from .model import PersonCollection, Person, person_db
-from .main import App
+from .model import PersonCollection, Person
+from .app import App
 
 
 @App.template_directory()

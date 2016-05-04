@@ -1,4 +1,4 @@
-from .main import App
+from .app import App
 from .model import PersonCollection, Person, person_db
 
 

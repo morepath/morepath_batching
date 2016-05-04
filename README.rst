@@ -13,20 +13,12 @@ Installation
 
 You can use pip in a virtual env::
 
-  $ virtualenv ve
-  $ ve/bin/pip install -e .
+  $ virtualenv env
+  $ source env/bin/activate
+  $ env/bin/pip install -e .
 
 Then to run the web server::
 
-  $ ve/bin/morepath_batching
+  $ env/bin/morepath_batching
 
 You can now access the application through http://localhost:5000
-
-Buildout
---------
-
-Instead of pip in a virtualenv you can also use buildout::
-
-  $ python bootstrap.py
-  $ bin/buildout
-  $ bin/morepath_batching
