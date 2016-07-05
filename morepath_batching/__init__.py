@@ -1,3 +1,4 @@
 # flake8: noqa
 
-from morepath_batching.app import App
+from .app import App
+from . import path, view  # load App directives

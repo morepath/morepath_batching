@@ -3,7 +3,6 @@ from .app import App
 
 
 def run():
-    morepath.autoscan()
     morepath.run(App())
 
 
