@@ -2,6 +2,10 @@ import morepath
 from .app import App
 
 
-def run():   # pragma: no cover
+def run():
     morepath.autoscan()
     morepath.run(App())
+
+
+if __name__ == '__main__':  # pragma: no cover
+    run()
