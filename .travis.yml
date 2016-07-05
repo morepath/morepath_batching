@@ -1,7 +1,11 @@
 language: python
 
-cache: pip
+python: 3.5
 env:
+    - TOXENV=py27
+    - TOXENV=py33
+    - TOXENV=py34
+    - TOXENV=py35
     - TOXENV=pep8
 before_install:
     - pip install --upgrade pip setuptools
