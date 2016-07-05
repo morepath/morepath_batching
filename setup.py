@@ -38,7 +38,7 @@ setup(
     ),
     entry_points={
         'console_scripts': [
-            'morepath_batching = morepath_batching.run:run',
+            'morepath_batching = morepath_batching.__main__:run',
         ]
     },
     classifiers=[
