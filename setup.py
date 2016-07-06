@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='morepath_batching',
-    version='0.1.dev0',
+    version='0.1',
     description=(
         'A demo app for Morepath with record batching'
     ),
