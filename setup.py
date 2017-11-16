@@ -24,7 +24,7 @@ setup(
     install_requires=[
         'morepath>=0.14',
         'more.jinja2',
-        'fake-factory',
+        'Faker',
     ],
     extras_require=dict(
         test=[
