@@ -24,7 +24,7 @@ setup(
     install_requires=[
         'morepath>=0.14',
         'more.jinja2',
-        'fake-factory',
+        'Faker',
     ],
     extras_require=dict(
         test=[
@@ -43,11 +43,9 @@ setup(
         'Environment :: Web Environment',
         'License :: OSI Approved :: BSD License',
         'Topic :: Internet :: WWW/HTTP :: WSGI',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ]
 )
