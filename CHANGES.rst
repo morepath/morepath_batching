@@ -8,6 +8,8 @@ CHANGES
 
 - Update supported Python versions.
 
+- Use GitHub Actions for CI.
+
 0.1 (2016-07-06)
 ================
 
