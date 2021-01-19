@@ -1,3 +1,17 @@
+.. image:: https://github.com/morepath/morepath_batching/workflows/CI/badge.svg?branch=master
+   :target: https://github.com/morepath/morepath_batching/actions?workflow=CI
+   :alt: CI Status
+
+.. image:: https://coveralls.io/repos/github/morepath/morepatmorepath_batchingh_sqlalchemy/badge.svg?branch=master
+    :target: https://coveralls.io/github/morepath/morepath_batching?branch=master
+
+.. image:: https://img.shields.io/pypi/v/morepath_batching.svg
+  :target: https://pypi.org/project/morepath_batching/
+
+.. image:: https://img.shields.io/pypi/pyversions/morepath_batching.svg
+  :target: https://pypi.org/project/morepath_batching/
+
+
 Morepath Batching Demo
 ======================
 

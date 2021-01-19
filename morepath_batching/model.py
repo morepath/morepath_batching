@@ -4,7 +4,7 @@ from faker import Faker
 BATCH_SIZE = 10
 
 
-class Person(object):
+class Person:
     def __init__(self, id, name, address, email):
         self.id = id
         self.name = name
@@ -12,7 +12,7 @@ class Person(object):
         self.email = email
 
 
-class PersonCollection(object):
+class PersonCollection:
     def __init__(self, persons, start):
         self.persons = persons
         if start < 0 or start >= len(persons):
@@ -20,7 +20,7 @@ class PersonCollection(object):
         self.start = start
 
     def query(self):
-        return self.persons[self.start:self.start + BATCH_SIZE]
+        return self.persons[self.start : self.start + BATCH_SIZE]
 
     def previous(self):
         if self.start == 0:
