@@ -20,7 +20,7 @@ setup(
     keywords="morepath demo",
     install_requires=[
         "morepath>=0.14",
-        "more.jinja2",
+        "more.jinja2>=0.3",
         "Faker",
     ],
     extras_require=dict(

@@ -10,6 +10,8 @@ CHANGES
 
 - Use GitHub Actions for CI.
 
+- Fix ``more.jinja2`` integration.
+
 0.1 (2016-07-06)
 ================
 
