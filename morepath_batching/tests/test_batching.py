@@ -24,7 +24,7 @@ def test_pagination():
             # The first page does not have a "previous" link
             assert r.html.findAll("a", text="Previous") == []
         else:
-            (prev,) = [a["href"] for a in r.html.findAll("a", text="Previous")]
+            (prev,) = (a["href"] for a in r.html.findAll("a", text="Previous"))
             assert c.get(prev).html.select("table a") == records_in_page
 
         # Get the link to the next page or None if at the end
@@ -56,7 +56,7 @@ def test_non_aligned_page():
     assert [a.text for a in r.html.select("table a")] == [
         p.name for p in person_db[5:15]
     ]
-    (prev_url,) = [a["href"] for a in r.html.findAll("a", text="Previous")]
+    (prev_url,) = (a["href"] for a in r.html.findAll("a", text="Previous"))
     assert [a.text for a in c.get(prev_url).html.select("table a")] == [
         p.name for p in person_db[:10]
     ]
