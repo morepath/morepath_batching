@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 
-
 setup(
     name="morepath_batching",
     version="0.2.dev0",

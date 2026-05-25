@@ -1,6 +1,5 @@
 from faker import Faker
 
-
 BATCH_SIZE = 10
 
 
